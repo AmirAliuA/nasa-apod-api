@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "install": "npm install --force",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "npm install --force && npm run build"
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.14",
