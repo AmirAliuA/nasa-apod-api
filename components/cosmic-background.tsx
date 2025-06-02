@@ -75,7 +75,7 @@ export function CosmicBackground() {
     canvas.width = dimensions.width
     canvas.height = dimensions.height
 
-    // Draw static stars once
+    // Static stars
     const drawStars = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
@@ -96,7 +96,6 @@ export function CosmicBackground() {
 
     drawStars()
 
-    // Optional: Add subtle twinkling effect
     const twinkle = () => {
       starsRef.current.forEach((star) => {
         // Very subtle opacity variation

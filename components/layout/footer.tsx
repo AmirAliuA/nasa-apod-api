@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="w-full border-t border-border bg-background/80 backdrop-blur-sm text-muted-foreground text-xs py-4 flex justify-center items-center gap-2">
       <Link
-        href="https://www.linkedin.com/in/amiraliu"
+        href="https://amiraliu.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         className="underline hover:text-foreground transition-colors duration-200"

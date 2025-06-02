@@ -1,6 +1,5 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { ExternalLink, Rocket, Database, Code, Star, Calendar, Search, Heart } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -8,6 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { FadeIn } from "@/components/fade-in"
 import { PageTransition } from "@/components/page-transition"
 import { CosmicBackground } from "@/components/cosmic-background"
+import { ExternalLink, Rocket, Database, Code, Star, Calendar, Search, Heart } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "About | NASA APOD Explorer",
