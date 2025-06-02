@@ -1,5 +1,10 @@
 # 🌌 NASA APOD Explorer
 
+<p float="left" align="center">
+  <img src="https://raw.githubusercontent.com/AmirAliuA/nasa-apod-api/refs/heads/master/preview-screenshots/light-theme.jpeg?token=GHSAT0AAAAAADC7QNHXSAYKZXHDL3VOSPHS2B5XFJA" width="48%" alt="Light Theme Preview" />
+  <img src="https://raw.githubusercontent.com/AmirAliuA/nasa-apod-api/refs/heads/master/preview-screenshots/dark-theme.jpeg?token=GHSAT0AAAAAADC7QNHXFAIFKUOHBFZLNSAA2B5XFAQ" width="48%" alt="Dark Theme Preview" />
+</p>
+
 A sleek and responsive web app for discovering NASA's **Astronomy Picture of the Day** archive — from today back to 1995.
 
 ---
@@ -16,7 +21,7 @@ A sleek and responsive web app for discovering NASA's **Astronomy Picture of the
 - 📅 Search for specific dates or date ranges  
 - 🖼️ View detailed image info: title, date, explanation, and copyright  
 - 📱 Responsive layout for mobile, tablet, and desktop  
-- ⚡ Fast, modern, and optimized with Next.js and Tailwind CSS  
+- ⚡ Fast, modern, and optimized with Next.js, Tailwind CSS, and shadcn/ui  
 
 ---
 
@@ -25,6 +30,7 @@ A sleek and responsive web app for discovering NASA's **Astronomy Picture of the
 - **Framework:** [Next.js](https://nextjs.org/) (React-based, SSR + SSG support)  
 - **Language:** TypeScript for type safety and maintainability  
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) for rapid UI development  
+- **Component Library:** [shadcn/ui](https://ui.shadcn.com/) for accessible, customizable components  
 - **API:** [NASA APOD API](https://api.nasa.gov/) for astronomy content  
 
 ---
@@ -35,14 +41,35 @@ To run the app locally:
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/nasa-apod-explorer.git
+git clone https://github.com/AmirAliuA/nasa-apod-api.git
 
 # Navigate to the project folder
-cd nasa-apod-explorer
+cd nasa-apod-api
 
 # Install dependencies
-npm install # or yarn install
+npm install --force
 
 # Run the development server
-npm run dev # or yarn dev
+npm run dev
 ```
+
+---
+
+### 🔐 Environment Variables
+Before running the app, create a .env file in the root of your project with the following contents:
+
+```env
+NASA_API_KEY=yourprivatekey  # Generate one at https://api.nasa.gov/
+NASA_API_URL="https://api.nasa.gov/planetary/apod"
+```
+> 🚨 Do not share or commit this file publicly. Your API key is private.
+
+---
+
+### 🤝 Contributing
+Contributions are welcome!
+
+---
+
+### 📄 License
+This project is licensed under the [CC BY-NC 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/deed.en) .
