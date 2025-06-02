@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm install --force && npm run build"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.14",
