@@ -1,8 +1,8 @@
 # 🌌 NASA APOD Explorer
 
 <p float="left" align="center">
-  <img src="https://raw.githubusercontent.com/AmirAliuA/nasa-apod-api/refs/heads/master/preview-screenshots/light-theme.jpeg?token=GHSAT0AAAAAADC7QNHXSAYKZXHDL3VOSPHS2B5XFJA" width="48%" alt="Light Theme Preview" />
-  <img src="https://raw.githubusercontent.com/AmirAliuA/nasa-apod-api/refs/heads/master/preview-screenshots/dark-theme.jpeg?token=GHSAT0AAAAAADC7QNHXFAIFKUOHBFZLNSAA2B5XFAQ" width="48%" alt="Dark Theme Preview" />
+  <img src="https://raw.githubusercontent.com/AmirAliuA/nasa-apod-api/refs/heads/master/preview-screenshots/light-theme.jpeg" width="48%" alt="Light Theme Preview" />
+  <img src="https://raw.githubusercontent.com/AmirAliuA/nasa-apod-api/refs/heads/master/preview-screenshots/dark-theme.jpeg" width="48%" alt="Dark Theme Preview" />
 </p>
 
 A sleek and responsive web app for discovering NASA's **Astronomy Picture of the Day** archive — from today back to 1995.
